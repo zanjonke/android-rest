@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_gravity="bottom"
+    tools:context="ep.rest.ProfilActivity"
+    tools:showIn="@layout/activity_profil"
+    android:layout_margin="@dimen/text_margin"
+    >
+
+    <EditText
+        android:id="@+id/imeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:layout_below="@+id/posodobi"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="ime"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/priimekEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:ems="10"
+        android:hint="priimek"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/telefonEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:ems="10"
+        android:hint="telefon"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/naslovEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:ems="10"
+        android:hint="naslov"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/gesloEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:ems="10"
+        android:hint="geslo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/posodobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@android:color/holo_blue_bright"
+        android:elevation="12dp"
+        android:text="Posodobi" />
+
+    <Button
+        android:id="@+id/nazaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/holo_blue_light"
+        android:elevation="24dp"
+        android:text="Nazaj" />
+</LinearLayout>

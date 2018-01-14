@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:title="Profil">
+    </android.support.v7.widget.Toolbar>
+
+    <include
+        android:id="@+id/includer"
+        layout="@layout/content_profil_detail"
+        android:layout_height="465dp"
+        app:layout_anchor="@+id/toolbar_layout"
+        app:layout_anchorGravity="bottom|center"
+        tools:layout_editor_absoluteY="102dp" />
+</android.support.design.widget.CoordinatorLayout>
